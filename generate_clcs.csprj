@@ -1,0 +1,264 @@
+<codestructure version="5.11">
+<phptree>
+<treenode node="__ROOT__;PHP:PHP Word;D:\htdocs\generate\index.php;f8;1;16;1;;;;vpos;;v;;rdirname(__FILE__;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="DEFAULT_BR_TEXT;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;62;23;62;;;;vpos;;v;;r&quot;\r\n&quot;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="DEFAULT_SPAN_TEXT;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;63;25;63;;;;vpos;;v;;r&quot; &quot;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="DEFAULT_TARGET_CHARSET;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;61;30;61;;;;vpos;;v;;r&apos;UTF-8&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_INFO_BEGIN;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;53;23;53;;;;vpos;;v;;r0;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_INFO_END;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;54;21;54;;;;vpos;;v;;r1;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_INFO_ENDSPACE;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;60;26;60;;;;vpos;;v;;r7;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_INFO_INNER;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;58;23;58;;;;vpos;;v;;r5;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_INFO_OUTER;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;59;23;59;;;;vpos;;v;;r6;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_INFO_QUOTE;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;55;23;55;;;;vpos;;v;;r2;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_INFO_SPACE;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;56;23;56;;;;vpos;;v;;r3;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_INFO_TEXT;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;57;22;57;;;;vpos;;v;;r4;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_QUOTE_DOUBLE;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;50;25;50;;;;vpos;;v;;r0;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_QUOTE_NO;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;52;21;52;;;;vpos;;v;;r3;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_QUOTE_SINGLE;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;51;25;51;;;;vpos;;v;;r1;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_TYPE_COMMENT;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;45;25;45;;;;vpos;;v;;r2;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_TYPE_ELEMENT;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;44;25;44;;;;vpos;;v;;r
+Description
+     All of the Defines for the classes below.;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_TYPE_ENDTAG;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;47;24;47;;;;vpos;;v;;r4;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_TYPE_ROOT;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;48;22;48;;;;vpos;;v;;r5;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_TYPE_TEXT;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;46;22;46;;;;vpos;;v;;r3;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="HDOM_TYPE_UNKNOWN;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;49;25;49;;;;vpos;;v;;r6;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="MAX_FILE_SIZE;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;64;21;64;;;;vpos;;v;;r600000;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="Html_generate;PHP:Class Name;D:\htdocs\generate\index.php;f0;3;1;78;;;;vpos;;v;;r;;d0,4;;b0,0;;m">
+<treenode node="add_row_model;PHP:Function Name;D:\htdocs\generate\index.php;f8;20;2;41;;;;vpos;;v;;r;;d54,20;;b1,0;;mfile_name;;pmodel;;prow;;p">
+</treenode>
+<treenode node="basic_model;PHP:Function Name;D:\htdocs\generate\index.php;f8;5;2;19;;;;vpos;;v;;r;;d30,5;;b1,0;;m">
+</treenode>
+<treenode node="create_menu;PHP:Function Name;D:\htdocs\generate\index.php;f8;42;2;44;;;;vpos;;v;;r;;d30,42;;b1,0;;m">
+</treenode>
+<treenode node="write_file;PHP:Function Name;D:\htdocs\generate\index.php;f9;45;2;77;;;;vpos;;v;;r;;d1,46;;b3,0;;mfilepath;;pstr;;p">
+</treenode>
+</treenode>
+<treenode node="simple_html_dom;PHP:Class Name;D:\htdocs\generate\simple_html_dom.php;f0;970;1;1718;;;;vpos;;v;;r
+Definition
+    class simple_html_dom
+
+Description
+     simple html dom parser Paperg - in the find routine: allow us to specify that we want case insensitive testing of the value of the selector. Paperg - change $size from protected to public so we can easily access it Paperg - added ForceTagsClosed in the constructor which tells us whether we trust the html or not.  Default is to NOT trust it.;;d0,971;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1014;5;1032;;;;vpos;;v;;r;;d4,1015;;b0,0;;mstr;;plowercase;;pforceTagsClosed;;ptarget_charset;;pstripRN;;pdefaultBRText;;pdefaultSpanText;;p">
+</treenode>
+<treenode node="__destruct;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1034;5;1037;;;;vpos;;v;;r;;d4,1035;;b0,0;;m">
+</treenode>
+<treenode node="__get;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1690;5;1705;;;;vpos;;v;;r;;d4,1691;;b0,0;;mname;;p">
+</treenode>
+<treenode node="__toString;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1685;5;1688;;;;vpos;;v;;r;;d4,1686;;b0,0;;m">
+</treenode>
+<treenode node="as_text_node;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;1530;5;1538;;;;vpos;;v;;r;;d4,1531;;b2,0;;mtag;;p">
+</treenode>
+<treenode node="childNodes;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1708;72;1708;;;;vpos;;v;;r;;d33,1708;;b0,0;;midx;;p">
+</treenode>
+<treenode node="clear;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1116;5;1125;;;;vpos;;v;;r;;d4,1117;;b0,0;;m">
+</treenode>
+<treenode node="copy_skip;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;1546;5;1554;;;;vpos;;v;;r;;d4,1547;;b2,0;;mchars;;p">
+</treenode>
+<treenode node="copy_until;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;1556;5;1563;;;;vpos;;v;;r;;d4,1557;;b2,0;;mchars;;p">
+</treenode>
+<treenode node="copy_until_char;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;1565;5;1581;;;;vpos;;v;;r;;d4,1566;;b2,0;;mchar;;p">
+</treenode>
+<treenode node="copy_until_char_escape;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;1583;5;1610;;;;vpos;;v;;r;;d4,1584;;b2,0;;mchar;;p">
+</treenode>
+<treenode node="createElement;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1711;110;1711;;;;vpos;;v;;r;;d47,1711;;b0,0;;mname;;pvalue;;p">
+</treenode>
+<treenode node="createTextNode;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1712;79;1712;;;;vpos;;v;;r;;d36,1712;;b0,0;;mvalue;;p">
+</treenode>
+<treenode node="dump;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1127;5;1130;;;;vpos;;v;;r;;d4,1128;;b0,0;;mshow_attr;;p">
+</treenode>
+<treenode node="find;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1110;5;1113;;;;vpos;;v;;r;;d4,1111;;b0,0;;mselector;;pidx;;plowercase;;p">
+</treenode>
+<treenode node="firstChild;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1709;62;1709;;;;vpos;;v;;r;;d26,1709;;b0,0;;m">
+</treenode>
+<treenode node="getElementById;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1713;65;1713;;;;vpos;;v;;r;;d33,1713;;b0,0;;mid;;p">
+</treenode>
+<treenode node="getElementByTagName;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1715;71;1715;;;;vpos;;v;;r;;d40,1715;;b0,0;;mname;;p">
+</treenode>
+<treenode node="getElementsById;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1714;80;1714;;;;vpos;;v;;r;;d45,1714;;b0,0;;mid;;pidx;;p">
+</treenode>
+<treenode node="getElementsByTagName;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1716;84;1716;;;;vpos;;v;;r;;d50,1716;;b0,0;;mname;;pidx;;p">
+</treenode>
+<treenode node="lastChild;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1710;60;1710;;;;vpos;;v;;r;;d25,1710;;b0,0;;m">
+</treenode>
+<treenode node="link_nodes;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;1519;5;1527;;;;vpos;;v;;r;;d4,1520;;b2,0;;mnode;;pis_child;;p">
+</treenode>
+<treenode node="load;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1040;5;1074;;;;vpos;;v;;r;;d4,1041;;b0,0;;mstr;;plowercase;;pstripRN;;pdefaultBRText;;pdefaultSpanText;;p">
+</treenode>
+<treenode node="load_file;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1077;5;1086;;;;vpos;;v;;r;;d4,1078;;b0,0;;m">
+</treenode>
+<treenode node="loadFile;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1717;74;1717;;;;vpos;;v;;r;;d24,1717;;b0,0;;m">
+</treenode>
+<treenode node="parse;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;1168;5;1181;;;;vpos;;v;;r;;d4,1169;;b2,0;;m">
+</treenode>
+<treenode node="parse_attr;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;1482;5;1516;;;;vpos;;v;;r;;d4,1483;;b2,0;;mnode;;pname;;pspace;;p">
+</treenode>
+<treenode node="parse_charset;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;1186;5;1254;;;;vpos;;v;;r;;d4,1187;;b2,0;;m">
+</treenode>
+<treenode node="prepare;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;1133;5;1165;;;;vpos;;v;;r;;d4,1134;;b2,0;;mstr;;plowercase;;pstripRN;;pdefaultBRText;;pdefaultSpanText;;p">
+</treenode>
+<treenode node="read_tag;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;1257;5;1479;;;;vpos;;v;;r;;d4,1258;;b2,0;;m">
+</treenode>
+<treenode node="remove_callback;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1095;5;1098;;;;vpos;;v;;r;;d4,1096;;b0,0;;m">
+</treenode>
+<treenode node="remove_noise;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;1614;5;1636;;;;vpos;;v;;r;;d4,1615;;b2,0;;mpattern;;premove_tag;;p">
+</treenode>
+<treenode node="restore_noise;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1639;5;1669;;;;vpos;;v;;r;;d4,1640;;b0,0;;mtext;;p">
+</treenode>
+<treenode node="save;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1101;5;1106;;;;vpos;;v;;r;;d4,1102;;b0,0;;mfilepath;;p">
+</treenode>
+<treenode node="search_noise;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1672;5;1684;;;;vpos;;v;;r;;d4,1673;;b0,0;;mtext;;p">
+</treenode>
+<treenode node="set_callback;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;1089;5;1092;;;;vpos;;v;;r;;d4,1090;;b0,0;;mfunction_name;;p">
+</treenode>
+<treenode node="skip;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;1540;5;1544;;;;vpos;;v;;r;;d4,1541;;b2,0;;mchars;;p">
+</treenode>
+</treenode>
+<treenode node="simple_html_dom_node;PHP:Class Name;D:\htdocs\generate\simple_html_dom.php;f0;113;1;960;;;;vpos;;v;;r
+Definition
+    class simple_html_dom_node
+
+Description
+     simple html dom node PaperG - added ability for &quot;find&quot; routine to lowercase the value of the selector. PaperG - added $tag_start to track the start position of the tag in the total byte index;;d0,114;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;126;5;130;;;;vpos;;v;;r;;d4,127;;b0,0;;mdom;;p">
+</treenode>
+<treenode node="__destruct;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;132;5;135;;;;vpos;;v;;r;;d4,133;;b0,0;;m">
+</treenode>
+<treenode node="__get;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;719;5;731;;;;vpos;;v;;r;;d26,719;;b0,0;;mname;;p">
+</treenode>
+<treenode node="__isset;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;747;5;755;;;;vpos;;v;;r;;d28,747;;b0,0;;mname;;p">
+</treenode>
+<treenode node="__set;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;733;5;745;;;;vpos;;v;;r;;d34,733;;b0,0;;mname;;pvalue;;p">
+</treenode>
+<treenode node="__toString;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;137;5;140;;;;vpos;;v;;r;;d4,138;;b0,0;;m">
+</treenode>
+<treenode node="__unset;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;757;5;760;;;;vpos;;v;;r;;d28,757;;b0,0;;mname;;p">
+</treenode>
+<treenode node="appendChild;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;958;69;958;;;;vpos;;v;;r;;d32,958;;b0,0;;mnode;;p">
+</treenode>
+<treenode node="childNodes;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;951;64;951;;;;vpos;;v;;r;;d33,951;;b0,0;;midx;;p">
+</treenode>
+<treenode node="children;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;264;5;272;;;;vpos;;v;;r;;d4,265;;b0,0;;midx;;p">
+</treenode>
+<treenode node="clear;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;143;5;149;;;;vpos;;v;;r;;d4,144;;b0,0;;m">
+</treenode>
+<treenode node="convert_text;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;763;5;807;;;;vpos;;v;;r;;d4,764;;b0,0;;mtext;;p">
+</treenode>
+<treenode node="dump;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;152;5;173;;;;vpos;;v;;r;;d4,153;;b0,0;;mshow_attr;;pdeep;;p">
+</treenode>
+<treenode node="dump_node;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;177;5;239;;;;vpos;;v;;r;;d4,178;;b0,0;;mecho;;p">
+</treenode>
+<treenode node="find;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;501;5;548;;;;vpos;;v;;r;;d4,502;;b0,0;;mselector;;pidx;;plowercase;;p">
+</treenode>
+<treenode node="find_ancestor_tag;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;328;5;347;;;;vpos;;v;;r;;d4,329;;b0,0;;mtag;;p">
+</treenode>
+<treenode node="first_child;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;275;5;282;;;;vpos;;v;;r;;d4,276;;b0,0;;m">
+</treenode>
+<treenode node="firstChild;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;952;56;952;;;;vpos;;v;;r;;d26,952;;b0,0;;m">
+</treenode>
+<treenode node="get_display_size;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;860;5;938;;;;vpos;;varray;;r
+Definition
+    get_display_size()
+
+Description
+     Function to try a few tricks to determine the displayed size of an img on the page. NOTE: This will ONLY work on an IMG tag. Returns FALSE on all other tag types.
+
+Return:
+   an array containing the &apos;height&apos; and &apos;width&apos; of the image on the page or -1 if we can&apos;t figure it out;;d4,861;;b0,0;;m">
+</treenode>
+<treenode node="getAllAttributes;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;941;53;941;;;;vpos;;v;;r;;d32,941;;b0,0;;m">
+</treenode>
+<treenode node="getAttribute;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;942;62;942;;;;vpos;;v;;r;;d33,942;;b0,0;;mname;;p">
+</treenode>
+<treenode node="getElementById;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;946;65;946;;;;vpos;;v;;r;;d33,946;;b0,0;;mid;;p">
+</treenode>
+<treenode node="getElementByTagName;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;948;71;948;;;;vpos;;v;;r;;d40,948;;b0,0;;mname;;p">
+</treenode>
+<treenode node="getElementsById;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;947;80;947;;;;vpos;;v;;r;;d45,947;;b0,0;;mid;;pidx;;p">
+</treenode>
+<treenode node="getElementsByTagName;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;949;86;949;;;;vpos;;v;;r;;d52,949;;b0,0;;mname;;pidx;;p">
+</treenode>
+<treenode node="has_child;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;258;5;261;;;;vpos;;v;;r;;d4,259;;b0,0;;m">
+</treenode>
+<treenode node="hasAttribute;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;944;64;944;;;;vpos;;v;;r;;d33,944;;b0,0;;mname;;p">
+</treenode>
+<treenode node="hasChildNodes;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;956;57;956;;;;vpos;;v;;r;;d29,956;;b0,0;;m">
+</treenode>
+<treenode node="innertext;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;350;5;359;;;;vpos;;v;;r;;d4,351;;b0,0;;m">
+</treenode>
+<treenode node="is_utf8;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f11;815;5;843;;;;vpos;;vboolean;;r
+Definition
+    is_utf8($str)
+
+Description
+     Returns true if $string is valid UTF-8 and false otherwise.
+
+Parameters:
+    mixed $str - String to be tested;;d4,816;;b0,5;;mmixed $str;;p">
+</treenode>
+<treenode node="last_child;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;285;5;292;;;;vpos;;v;;r;;d4,286;;b0,0;;m">
+</treenode>
+<treenode node="lastChild;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;953;54;953;;;;vpos;;v;;r;;d25,953;;b0,0;;m">
+</treenode>
+<treenode node="makeup;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;465;5;497;;;;vpos;;v;;r;;d4,466;;b0,0;;m">
+</treenode>
+<treenode node="match;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;649;5;669;;;;vpos;;v;;r;;d53,649;;b2,0;;mexp;;ppattern;;pvalue;;p">
+</treenode>
+<treenode node="next_sibling;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;295;5;313;;;;vpos;;v;;r;;d4,296;;b0,0;;m">
+</treenode>
+<treenode node="nextSibling;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;954;58;954;;;;vpos;;v;;r;;d27,954;;b0,0;;m">
+</treenode>
+<treenode node="nodeName;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;957;44;957;;;;vpos;;v;;r;;d24,957;;b0,0;;m">
+</treenode>
+<treenode node="outertext;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;362;5;419;;;;vpos;;v;;r;;d4,363;;b0,0;;m">
+</treenode>
+<treenode node="parentNode;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;950;51;950;;;;vpos;;v;;r;;d26,950;;b0,0;;m">
+</treenode>
+<treenode node="parse_selector;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;671;5;717;;;;vpos;;v;;r;;d56,671;;b2,0;;mselector_string;;p">
+</treenode>
+<treenode node="prev_sibling;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;316;5;325;;;;vpos;;v;;r;;d4,317;;b0,0;;m">
+</treenode>
+<treenode node="previousSibling;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;955;62;955;;;;vpos;;v;;r;;d31,955;;b0,0;;m">
+</treenode>
+<treenode node="removeAttribute;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;945;64;945;;;;vpos;;v;;r;;d36,945;;b0,0;;mname;;p">
+</treenode>
+<treenode node="seek;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f14;552;5;647;;;;vpos;;v;;r;;d4,553;;b2,0;;mselector;;pret;;plowercase;;p">
+</treenode>
+<treenode node="setAttribute;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;943;71;943;;;;vpos;;v;;r;;d41,943;;b0,0;;mname;;pvalue;;p">
+</treenode>
+<treenode node="text;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;422;5;454;;;;vpos;;v;;r;;d4,423;;b0,0;;m">
+</treenode>
+<treenode node="xmltext;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f4;456;5;462;;;;vpos;;v;;r;;d4,457;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="dump_html_tree;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f0;100;1;103;;;;vpos;;v;;r;;d0,101;;b0,0;;mnode;;pshow_attr;;pdeep;;p">
+</treenode>
+<treenode node="file_get_html;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f0;69;1;84;;;;vpos;;v;;r;;d0,70;;b0,0;;murl;;puse_include_path;;pcontext;;poffset;;pmaxLen;;plowercase;;pforceTagsClosed;;ptarget_charset;;pstripRN;;pdefaultBRText;;pdefaultSpanText;;p">
+</treenode>
+<treenode node="str_get_html;PHP:Function Name;D:\htdocs\generate\simple_html_dom.php;f0;87;1;97;;;;vpos;;v;;r;;d0,88;;b0,0;;mstr;;plowercase;;pforceTagsClosed;;ptarget_charset;;pstripRN;;pdefaultBRText;;pdefaultSpanText;;p">
+</treenode>
+</phptree>
+</codestructure>
