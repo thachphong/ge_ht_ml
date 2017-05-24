@@ -1,30 +1,46 @@
 <?php
 define('__ROOT__', dirname(__FILE__)); 
-require_once(__ROOT__.'/simple_html_dom.php'); 
+require_once(__ROOT__.'/Htmldom.php'); 
+require_once(__ROOT__.'/Cssstyle.php'); 
 class Html_generate
 {
+	private $header="header";
+	private $content="content";
+	private $footer="footer";
+	private $file_name = "index.html";
 	public function basic_model(){
 		$file_name ="index.html";
-		$str ='<html>'."\r";
-		$str  .='	<head>'."\r";
-		$str  .='		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />'."\r";
-		$str  .='	</head>'."\r";
-		$str  .='	<body>'."\r";
-		$str  .='	</body>'."\r";
-		$str  .='</html>'."\r";
+		$str ='<html>
+					<head>
+						<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+					</head>
+					<body>
+						<div class="row"><div class="container" id="header"></div></div>
+						<div class="row"><div class="container" id="content"></div></div>
+						<div class="row"><div class="container" id="footer"></div></div>
+					</body>
+				</html>';
 		if(file_exists($file_name)){
 			unlink($file_name);
 		}
 		$this->write_file($file_name,$str);
-		$this->add_row_model($file_name,'body',3);
+		//$this->add_row_model($file_name,'body',3);
+		$this->add_model('header',$this->get_menu());
+		//$this->add_row_model($file_name);
 	}
-	public function add_row_model($file_name,$model,$row){
+	public function add_model($obj_id,$html){
+		$md = new Htmldom($this->file_name);
+		$md->set_html($obj_id,$html);
+		$md->save();
+	}
+	
+	public function add_row_model($file_name/*,$model,$row*/){
 		//$html = file_get_html($file_name);
 		$doc = new DOMDocument('1.0', 'UTF-8');
 		$doc->preserveWhiteSpace = false;
 		$doc->formatOutput = true;
 		$doc->loadHTMLFile($file_name);
-		$xpath = new DOMXPath($doc);
+		/*$xpath = new DOMXPath($doc);
 		$body = $xpath->query('//'.$model);
 		if($body != null){
 			if($body->length > 0){
@@ -36,10 +52,39 @@ class Html_generate
 					$node->appendChild($newText); 
 				}
 			}
-		}		
+		}		*/
 		$doc->saveHTMLFile($file_name);	
-		unset($xpath);
+		//unset($xpath);
 		unset($doc);
+	}
+	public function get_menu(){
+		$ul ="<ul>";
+		//for($i = 0; $i < $level;$i++){
+			$ul .="<li><a>menu item 1</a>
+					<ul>
+						<li><a>menu item 1</a></li>
+						<li><a>menu item 1</a></li>
+						<li><a>menu item 1</a></li>
+					</ul>
+				 </li>
+				 <li><a>menu item 2</a>
+					<ul>
+						<li><a>sub item 1</a></li>
+						<li><a>sub item 2</a></li>
+						<li><a>sub item 3</a>
+							<ul>
+								<li><a>sub sub item 1</a></li>
+								<li><a>sub sub item 2</a></li>
+								<li><a>sub sub item 3</a></li>
+							</ul>
+						</li>
+					</ul>
+				 </li>
+				 <li><a>menu item 3</a></li>
+				 <li><a>menu item 4</a></li>";
+		//}
+		$ul .="</ul>";
+		return $ul;
 	}	
 	private function write_file($filepath, $str)
 	{
@@ -79,6 +124,10 @@ class Html_generate
 
 
 
-$md = new Html_generate();
-$md->basic_model();
+//$md = new Html_generate();
+//$md->basic_model();
+$css = new Cssstyle();
+$css->border = 1;
+$css->display='none';
+var_dump($css->convert());
 
