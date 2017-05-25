@@ -30,6 +30,7 @@ class Cssstyle
 	public $width;
 	public $float;
 	public $index;
+	public $line_height;
 	
 	private $arr_elem= array('background'=>'background',
 							 'background_color'=>'background-color',
@@ -60,7 +61,7 @@ class Cssstyle
 							 'width'=>'width',
 							 'float'=>'float',
 							 'index'=>'index',
-							 
+							 'line_height'=>'line-height',
 	);
 	public function convert(){
 		$result= array();

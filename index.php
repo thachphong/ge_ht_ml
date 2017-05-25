@@ -2,6 +2,7 @@
 define('__ROOT__', dirname(__FILE__)); 
 require_once(__ROOT__.'/Htmldom.php'); 
 require_once(__ROOT__.'/Cssstyle.php'); 
+require_once(__ROOT__.'/Cssdom.php');
 class Html_generate
 {
 	private $header="header";
@@ -26,6 +27,45 @@ class Html_generate
 		$this->write_file($file_name,$str);
 		//$this->add_row_model($file_name,'body',3);
 		$this->add_model('header',$this->get_menu());
+		$css = new Cssdom('style.css');
+		$style = new Cssstyle();
+		$style->background = '#8C6450';
+		$style->display="inline-block";
+		//$style->padding="5px";
+		$style->color="#fff";		
+		$css->set_style('#menu_top ul li',$style,TRUE);
+		
+		$style = new Cssstyle();
+		$style->padding="5px";
+		$style->color="#fff";	
+		$style->line_height='30px';
+		$style->background = '#8C6450';	
+		$css->set_style('#menu_top ul li a',$style);
+		
+		$style2 = new Cssstyle();
+		$style2->display="none";
+		$style2->position="absolute";
+		$css->set_style('#menu_top ul li ul',$style2);
+		$style3 = new Cssstyle();
+		$style3->display="block";
+		$style3->padding_left = 0;
+		$css->set_style('#menu_top ul li:hover ul',$style3);
+		
+		$style4 = new Cssstyle();
+		$style4->display="list-item";
+		$css->set_style('#menu_top ul li ul li',$style4);
+		
+		$style5 = new Cssstyle();
+		$style5->display="none";
+		$style5->position="absolute";
+		$css->set_style('#menu_top ul li ul li ul',$style5);
+		$css->set_style('#menu_top ul li:hover ul li ul',$style5);
+		$style3->width ='120';
+		$style3->display="inline-block";
+		$css->set_style('#menu_top ul li ul li:hover ul',$style3);
+		$css->set_style('#menu_top ul li ul li ul li',$style4);
+		
+		$this->add_cssfile('style.css');
 		//$this->add_row_model($file_name);
 	}
 	public function add_model($obj_id,$html){
@@ -33,7 +73,11 @@ class Html_generate
 		$md->set_html($obj_id,$html);
 		$md->save();
 	}
-	
+	public function add_cssfile($file_name){
+		$md = new Htmldom($this->file_name);
+		$md->add_cssfile($file_name);
+		$md->save();
+	}
 	public function add_row_model($file_name/*,$model,$row*/){
 		//$html = file_get_html($file_name);
 		$doc = new DOMDocument('1.0', 'UTF-8');
@@ -58,7 +102,8 @@ class Html_generate
 		unset($doc);
 	}
 	public function get_menu(){
-		$ul ="<ul>";
+		$ul ="<div id='menu_top'>
+			<ul >";
 		//for($i = 0; $i < $level;$i++){
 			$ul .="<li><a>menu item 1</a>
 					<ul>
@@ -83,7 +128,7 @@ class Html_generate
 				 <li><a>menu item 3</a></li>
 				 <li><a>menu item 4</a></li>";
 		//}
-		$ul .="</ul>";
+		$ul .="</ul></div>";
 		return $ul;
 	}	
 	private function write_file($filepath, $str)
@@ -124,10 +169,10 @@ class Html_generate
 
 
 
-//$md = new Html_generate();
-//$md->basic_model();
-$css = new Cssstyle();
+$md = new Html_generate();
+$md->basic_model();
+/*$css = new Cssstyle();
 $css->border = 1;
 $css->display='none';
 var_dump($css->convert());
-
+*/

@@ -2,7 +2,13 @@
 <project name="D:\htdocs\generate\generate.clpprj">
 	<settings><PM_URL><![CDATA[http://localhost/generate/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/generate/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
 		<file name="D:\htdocs\generate\index.php"/>
+		<file name="D:\htdocs\generate\Htmldom.php"/>
+		<file name="D:\htdocs\generate\simple_html_dom.php"/>
 		<file name="D:\htdocs\generate\index.html"/>
+		<file name="D:\htdocs\generate\Filelib.php"/>
+		<file name="D:\htdocs\generate\Cssdom.php"/>
+		<file name="D:\htdocs\generate\Cssstyle.php"/>
+		<file name="D:\htdocs\generate\style.css"/>
 	</lastopfiles>
 	<errors version="5.11">
 		<errfile name="D:\htdocs\generate\simple_html_dom.php">
@@ -20,8 +26,13 @@
 	<todoblock>
 	</todoblock>
 	<filescache>
+		<file name="D:\htdocs\generate\style.css" crc="1495685937"/>
 		<file name="D:\htdocs\generate\simple_html_dom.php" crc="1487565957"/>
-		<file name="D:\htdocs\generate\index.php" crc="1495525774"/>
-		<file name="D:\htdocs\generate\index.html" crc="1495525777"/>
+		<file name="D:\htdocs\generate\index.php" crc="1495685889"/>
+		<file name="D:\htdocs\generate\index.html" crc="1495685937"/>
+		<file name="D:\htdocs\generate\Htmldom.php" crc="1495682749"/>
+		<file name="D:\htdocs\generate\Filelib.php" crc="1495621760"/>
+		<file name="D:\htdocs\generate\Cssstyle.php" crc="1495625140"/>
+		<file name="D:\htdocs\generate\Cssdom.php" crc="1495683971"/>
 	</filescache>
 </project>

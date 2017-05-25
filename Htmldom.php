@@ -32,6 +32,13 @@ class Htmldom
 		}
 		$this->$sdom->save();
 	}
+	public function add_cssfile($file_name){
+		$element = $this->sdom->find('//head',0);
+        if($element != NULL){
+			return $element->innertext .= '<link href="'.$file_name.'" rel="stylesheet" type="text/css">';
+		}
+		$this->$sdom->save();
+	}
 	public function save($file_name=''){
 		if($file_name==''){
 			$this->sdom->save($this->filename);
