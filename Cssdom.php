@@ -33,6 +33,34 @@ class Cssdom
 		$file = new Filelib();
 		$file->write_file($this->filename,$str);
 	}
+	public function set_style_mobile($obj_name,$this_style,$new_flg = FALSE){
+		$file_name = str_replace('.css','_mobi.css', $this->filename);
+		var_dump($this->filename);
+		var_dump($file_name);
+		$str= "";
+		if($new_flg){			
+			$str ="@media only screen and (max-width: 768px){";
+		}else{
+			if(!file_exists($file_name)){
+				$str ="@media only screen and (max-width: 768px){";
+			}else{
+				$str = file_get_contents($file_name);
+				$str = str_replace('}}','}',$str);
+			}
+		}
+		
+		$list = $this_style->convert();
+		$str .= $obj_name.'{';
+		foreach($list as $key=>$val){
+			$str .= $key.": ".$val.";";
+		}
+		$str .='}}';
+		if(file_exists($file_name)){
+			unlink($file_name);
+		}
+		$file = new Filelib();
+		$file->write_file($file_name,$str);
+	}
 	public function set_menu_style($param){
 		$background_1 = $param['background1'];
 		//$background_hover_1 = $param['background_hover1'];

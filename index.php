@@ -16,16 +16,19 @@ class Html_generate
 						<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 					</head>
 					<body>
-						<div class="row"><div class="container" id="header"></div></div>
+						<div class="row">
+							<div class="container" id="header"></div>
+						</div>
 						<div class="row"><div class="container" id="content"></div></div>
 						<div class="row"><div class="container" id="footer"></div></div>
 					</body>
 				</html>';
 		if(file_exists($file_name)){
-			unlink($file_name);
-		}
+			unlink($file_name);		
+		}		
 		$this->write_file($file_name,$str);
 		//$this->add_row_model($file_name,'body',3);
+		
 		$this->add_model('header',$this->get_menu());
 		$css_file = 'css/style.css';
 		$css = new Cssdom($css_file);
@@ -40,7 +43,15 @@ class Html_generate
 		$style = new Cssstyle();
 		$style->width='90%';
 		$style->margin='auto';
+		$style->background= '#D4D9D8';
 		$css->set_style('.container',$style);
+		$style = new Cssstyle();
+		$style->background= '#E4E9E8';
+		$css->set_style('body',$style);
+		$style->width='100%';
+		//$style->margin='auto';
+		$style->background= '#D4D9D8';
+		$css->set_style_mobile('.container',$style);
 		/*$style = new Cssstyle();
 		$style->background = '#8C6450';
 		$style->display="inline-block";
@@ -84,6 +95,7 @@ class Html_generate
 		$css->set_style('#menu_top ul li ul li ul li',$style4);*/
 		$this->add_cssfile('css/bootstrap.min.css');
 		$this->add_cssfile('css/style.css');
+		$this->add_cssfile('css/style_mobi.css');
 		//$this->add_row_model($file_name);
 	}
 	public function add_model($obj_id,$html){
