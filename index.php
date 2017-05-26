@@ -27,7 +27,8 @@ class Html_generate
 		$this->write_file($file_name,$str);
 		//$this->add_row_model($file_name,'body',3);
 		$this->add_model('header',$this->get_menu());
-		$css = new Cssdom('style.css');
+		$css_file = 'css/style.css';
+		$css = new Cssdom($css_file);
 		$param['background1'] = '#A52A2A';
 		$param['background2'] = '#952929';
 		$param['color_hover1'] ='#f9fd51';
@@ -81,8 +82,8 @@ class Html_generate
     	//$style3->margin_top = '-1px';
 		$css->set_style('#menu_top ul li ul li:hover ul',$style3);
 		$css->set_style('#menu_top ul li ul li ul li',$style4);*/
-		
-		$this->add_cssfile('style.css');
+		$this->add_cssfile('css/bootstrap.min.css');
+		$this->add_cssfile('css/style.css');
 		//$this->add_row_model($file_name);
 	}
 	public function add_model($obj_id,$html){

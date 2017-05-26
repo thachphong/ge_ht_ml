@@ -30,14 +30,21 @@ class Htmldom
         if($element != NULL){
 			return $element->innertext = $str_html;
 		}
-		$this->$sdom->save();
+		$this->sdom->save();
 	}
 	public function add_cssfile($file_name){
 		$element = $this->sdom->find('//head',0);
         if($element != NULL){
-			return $element->innertext .= '<link href="'.$file_name.'" rel="stylesheet" type="text/css">';
+			$element->innertext .= '<link href="'.$file_name.'" rel="stylesheet" type="text/css">';
 		}
-		$this->$sdom->save();
+		$this->sdom->save();
+	}
+	public function add_jsfile($file_name){
+		$element = $this->sdom->find('//head',0);
+        if($element != NULL){			
+			$element->innertext .= '<script type="text/javascript" src="'.$file_name.'"></script>';
+		}
+		$this->sdom->save();
 	}
 	public function save($file_name=''){
 		if($file_name==''){
