@@ -28,7 +28,19 @@ class Html_generate
 		//$this->add_row_model($file_name,'body',3);
 		$this->add_model('header',$this->get_menu());
 		$css = new Cssdom('style.css');
+		$param['background1'] = '#A52A2A';
+		$param['background2'] = '#952929';
+		$param['color_hover1'] ='#f9fd51';
+		$param['font_family'] = "Tahoma,Arial,Times New Roman";	
+		$param['font_size'] = '13px';		
+		$param['background_hover2'] = '#edabb7';	
+		
+		$css->set_menu_style($param);
 		$style = new Cssstyle();
+		$style->width='90%';
+		$style->margin='auto';
+		$css->set_style('.container',$style);
+		/*$style = new Cssstyle();
 		$style->background = '#8C6450';
 		$style->display="inline-block";
 		//$style->padding="5px";
@@ -53,6 +65,7 @@ class Html_generate
 		
 		$style4 = new Cssstyle();
 		$style4->display="list-item";
+		//$style4->position='relative';
 		$css->set_style('#menu_top ul li ul li',$style4);
 		
 		$style5 = new Cssstyle();
@@ -61,9 +74,13 @@ class Html_generate
 		$css->set_style('#menu_top ul li ul li ul',$style5);
 		$css->set_style('#menu_top ul li:hover ul li ul',$style5);
 		$style3->width ='120';
-		$style3->display="inline-block";
+		$style3->display="block";
+		//$style3->top = 0;
+		$style3->left = '100%';
+		$style3->position = 'absolute';
+    	//$style3->margin_top = '-1px';
 		$css->set_style('#menu_top ul li ul li:hover ul',$style3);
-		$css->set_style('#menu_top ul li ul li ul li',$style4);
+		$css->set_style('#menu_top ul li ul li ul li',$style4);*/
 		
 		$this->add_cssfile('style.css');
 		//$this->add_row_model($file_name);
@@ -103,11 +120,11 @@ class Html_generate
 	}
 	public function get_menu(){
 		$ul ="<div id='menu_top'>
-			<ul >";
+			<ul class=\"dropDownMenu\">";
 		//for($i = 0; $i < $level;$i++){
 			$ul .="<li><a>menu item 1</a>
 					<ul>
-						<li><a>menu item 1</a></li>
+						<li><a>menu item 1 aaa</a></li>
 						<li><a>menu item 1</a></li>
 						<li><a>menu item 1</a></li>
 					</ul>

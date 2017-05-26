@@ -31,7 +31,12 @@ class Cssstyle
 	public $float;
 	public $index;
 	public $line_height;
-	
+	public $top;
+	public $left;
+	public $clear;
+	public $list_style;
+	public $white_space;
+	public $text_decoration;
 	private $arr_elem= array('background'=>'background',
 							 'background_color'=>'background-color',
 							 'background_image'=>'background-image',
@@ -62,6 +67,12 @@ class Cssstyle
 							 'float'=>'float',
 							 'index'=>'index',
 							 'line_height'=>'line-height',
+							 'top'=>'top',
+							 'left'=>'left',
+							 'list_style'=>'list-style',
+							 'clear'=>'clear',
+							 'white_space'=>'white-space',
+							 'text_decoration'=>'text-decoration',
 	);
 	public function convert(){
 		$result= array();

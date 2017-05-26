@@ -18,13 +18,13 @@ class Cssdom
         $this->filename = $file_name;
     }
     
-    public function set_style($obj_name,$css_style,$new_flg = FALSE ){
+    public function set_style($obj_name,$this_style,$new_flg = FALSE ){
     	if($new_flg){
 			if(file_exists($this->filename)){
 				unlink($this->filename);
 			}
 		}
-		$list = $css_style->convert();
+		$list = $this_style->convert();
 		$str= $obj_name.'{';
 		foreach($list as $key=>$val){
 			$str .= $key.": ".$val.";";
@@ -32,5 +32,86 @@ class Cssdom
 		$str .='}';
 		$file = new Filelib();
 		$file->write_file($this->filename,$str);
+	}
+	public function set_menu_style($param){
+		$background_1 = $param['background1'];
+		//$background_hover_1 = $param['background_hover1'];
+		//$color_hover_1 = $param['color_hover1'];
+		$background_2 = $param['background2'];
+		
+		$style = new Cssstyle();
+		$style->padding =0;
+		$style->margin  =0;
+		$style->list_style = 'none';
+		$style->background = $background_1;//'#1bc2a2';	
+		if(isset($param['font_family'])){
+			$style->font_family = $param['font_family'];
+		}
+		if(isset($param['font_size'])){
+			$style->font_size = $param['font_size'];
+		}
+		//$style->font_family ="Tahoma,Arial,Times New Roman";		
+		$this->set_style('#menu_top ul',$style,TRUE);
+		$style = new Cssstyle();
+		$style->display="block";
+		$style->position = "relative";
+		$style->float = "left";
+		$style->background =$background_1;// '#1bc2a2';
+		$this->set_style('#menu_top ul li',$style);
+		$style = new Cssstyle();
+		$style->display ='none';
+		$this->set_style('#menu_top li ul',$style);
+		$style = new Cssstyle();
+		$style->display = 'block';
+		$style->padding = '1em';
+		$style->color = '#fff';
+		$style->white_space="nowrap";
+		$style->text_decoration="none";		
+		$this->set_style('#menu_top ul li a',$style);
+		$style = new Cssstyle();
+		if(isset($param['background_hover1'])){
+			$style->background = $param['background_hover1'];//'#2c3e50';	
+		}
+		if(isset($param['color_hover1'])){
+			$style->color = $param['color_hover1'];
+		}
+		
+		$this->set_style('#menu_top ul li a:hover',$style);	
+			
+		$style = new Cssstyle();
+		$style->display="block";
+		$style->position="absolute";
+		$this->set_style('#menu_top li:hover > ul',$style);
+		$style = new Cssstyle();
+		$style->float='none';
+		$this->set_style('#menu_top li:hover li',$style);
+		/*$style = new Cssstyle();
+		$style->background =$background_1;//'#1bc2a2';		 
+		$this->set_style('#menu_top li:hover a',$style);*/
+		$style = new Cssstyle();
+		$style->background = $background_2;//'#1bc2a2';		 
+		$this->set_style('#menu_top li:hover ul li a',$style);
+		
+		$style = new Cssstyle();
+		if(isset($param['background_hover2'])){
+			$style->background = $param['background_hover2'];//'#2c3e50';	
+		}		 
+		//$style->background ="#2c3e50";
+		$style->color ='#fff';
+		$this->set_style('#menu_top li:hover li a:hover',$style);
+		$style = new Cssstyle();
+		$style->border_top =0;
+		$this->set_style('##menu_top .dropDownMenu li ul li',$style);
+		$style = new Cssstyle();
+		$style->left = '100%';
+		$style->top ="0";
+		$this->set_style('#menu_top ul ul ul',$style);
+		$style = new Cssstyle();
+		$style->display = 'table';		
+		$this->set_style('#menu_top ul:before,#menu_top ul:after',$style);
+		$style = new Cssstyle();
+		$style->clear ='both';
+		$this->set_style('#menu_top ul:after',$style);
+		
 	}
 }
