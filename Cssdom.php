@@ -35,8 +35,8 @@ class Cssdom
 	}
 	public function set_style_mobile($obj_name,$this_style,$new_flg = FALSE){
 		$file_name = str_replace('.css','_mobi.css', $this->filename);
-		var_dump($this->filename);
-		var_dump($file_name);
+		//var_dump($this->filename);
+		//var_dump($file_name);
 		$str= "";
 		if($new_flg){			
 			$str ="@media only screen and (max-width: 768px){";

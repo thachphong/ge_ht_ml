@@ -46,86 +46,92 @@ Description
 </treenode>
 <treenode node="MAX_FILE_SIZE;PHP:PHP Word;D:\htdocs\generate\simple_html_dom.php;f8;64;21;64;;;;vpos;;v;;r600000;;d-1,-1;;b0,0;;m">
 </treenode>
-<treenode node="Cssdom;PHP:Class Name;D:\htdocs\generate\Cssdom.php;f0;3;1;35;;;;vpos;;v;;r;;d0,4;;b0,0;;m">
+<treenode node="Cssdom;PHP:Class Name;D:\htdocs\generate\Cssdom.php;f0;3;1;144;;;;vpos;;v;;r;;d0,4;;b0,0;;m">
 <treenode node="__construct;PHP:Function Name;D:\htdocs\generate\Cssdom.php;f4;10;5;15;;;;vpos;;v;;r;;d4,11;;b0,0;;mfile_name;;p">
 </treenode>
 <treenode node="Load;PHP:Function Name;D:\htdocs\generate\Cssdom.php;f11;16;5;18;;;;vpos;;v;;r;;d36,16;;b1,0;;mfile_name;;p">
 </treenode>
-<treenode node="set_style;PHP:Function Name;D:\htdocs\generate\Cssdom.php;f11;20;2;34;;;;vpos;;v;;r;;d69,20;;b1,0;;mobj_name;;pcss_style;;pnew_flg;;p">
+<treenode node="set_menu_style;PHP:Function Name;D:\htdocs\generate\Cssdom.php;f8;63;2;143;;;;vpos;;v;;r;;d39,63;;b1,0;;mparam;;p">
+</treenode>
+<treenode node="set_style;PHP:Function Name;D:\htdocs\generate\Cssdom.php;f11;20;2;34;;;;vpos;;v;;r;;d70,20;;b1,0;;mobj_name;;pthis_style;;pnew_flg;;p">
+</treenode>
+<treenode node="set_style_mobile;PHP:Function Name;D:\htdocs\generate\Cssdom.php;f8;35;2;62;;;;vpos;;v;;r;;d73,35;;b1,0;;mobj_name;;pthis_style;;pnew_flg;;p">
 </treenode>
 </treenode>
-<treenode node="Cssstyle;PHP:Class Name;D:\htdocs\generate\Cssstyle.php;f0;1;1;74;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
-<treenode node="convert;PHP:Function Name;D:\htdocs\generate\Cssstyle.php;f8;65;2;73;;;;vpos;;v;;r;;d26,65;;b1,0;;m">
+<treenode node="Cssstyle;PHP:Class Name;D:\htdocs\generate\Cssstyle.php;f0;1;1;85;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+<treenode node="convert;PHP:Function Name;D:\htdocs\generate\Cssstyle.php;f8;76;2;84;;;;vpos;;v;;r;;d26,76;;b1,0;;m">
 </treenode>
 </treenode>
 <treenode node="Filelib;PHP:Class Name;D:\htdocs\generate\Filelib.php;f0;1;1;35;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
 <treenode node="write_file;PHP:Function Name;D:\htdocs\generate\Filelib.php;f8;3;2;34;;;;vpos;;v;;r;;d1,4;;b1,0;;mfilepath;;pstr;;p">
 </treenode>
 </treenode>
-<treenode node="Html_generate;PHP:Class Name;D:\htdocs\generate\index.php;f0;5;1;166;;;;vpos;;v;;r;;d0,6;;b0,0;;m">
-<treenode node="add_cssfile;PHP:Function Name;D:\htdocs\generate\index.php;f8;75;2;79;;;;vpos;;v;;r;;d40,75;;b1,0;;mfile_name;;p">
+<treenode node="Html_generate;PHP:Class Name;D:\htdocs\generate\index.php;f0;5;1;196;;;;vpos;;v;;r;;d0,6;;b0,0;;m">
+<treenode node="add_cssfile;PHP:Function Name;D:\htdocs\generate\index.php;f8;105;2;109;;;;vpos;;v;;r;;d40,105;;b1,0;;mfile_name;;p">
 </treenode>
-<treenode node="add_model;PHP:Function Name;D:\htdocs\generate\index.php;f8;70;2;74;;;;vpos;;v;;r;;d41,70;;b1,0;;mobj_id;;phtml;;p">
+<treenode node="add_model;PHP:Function Name;D:\htdocs\generate\index.php;f8;100;2;104;;;;vpos;;v;;r;;d41,100;;b1,0;;mobj_id;;phtml;;p">
 </treenode>
-<treenode node="add_row_model;PHP:Function Name;D:\htdocs\generate\index.php;f8;80;2;102;;;;vpos;;v;;r;;d58,80;;b1,0;;mfile_name;;p">
+<treenode node="add_row_model;PHP:Function Name;D:\htdocs\generate\index.php;f8;110;2;132;;;;vpos;;v;;r;;d58,110;;b1,0;;mfile_name;;p">
 </treenode>
-<treenode node="basic_model;PHP:Function Name;D:\htdocs\generate\index.php;f8;11;2;69;;;;vpos;;v;;r;;d30,11;;b1,0;;m">
+<treenode node="basic_model;PHP:Function Name;D:\htdocs\generate\index.php;f8;11;2;99;;;;vpos;;v;;r;;d30,11;;b1,0;;m">
 </treenode>
-<treenode node="get_menu;PHP:Function Name;D:\htdocs\generate\index.php;f8;103;2;132;;;;vpos;;v;;r;;d27,103;;b1,0;;m">
+<treenode node="get_menu;PHP:Function Name;D:\htdocs\generate\index.php;f8;133;2;162;;;;vpos;;v;;r;;d27,133;;b1,0;;m">
 </treenode>
-<treenode node="write_file;PHP:Function Name;D:\htdocs\generate\index.php;f9;133;2;165;;;;vpos;;v;;r;;d1,134;;b3,0;;mfilepath;;pstr;;p">
+<treenode node="write_file;PHP:Function Name;D:\htdocs\generate\index.php;f9;163;2;195;;;;vpos;;v;;r;;d1,164;;b3,0;;mfilepath;;pstr;;p">
 </treenode>
 </treenode>
-<treenode node="Htmldom;PHP:Class Name;D:\htdocs\generate\Htmldom.php;f0;4;1;383;;;;vpos;;v;;r;;d0,5;;b0,0;;m">
+<treenode node="Htmldom;PHP:Class Name;D:\htdocs\generate\Htmldom.php;f0;4;1;390;;;;vpos;;v;;r;;d0,5;;b0,0;;m">
 <treenode node="__construct;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f4;10;5;16;;;;vpos;;v;;r;;d4,11;;b0,0;;mfile_name;;p">
 </treenode>
 <treenode node="add_cssfile;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f8;34;2;40;;;;vpos;;v;;r;;d40,34;;b1,0;;mfile_name;;p">
 </treenode>
-<treenode node="check_folder_download;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;348;5;358;;;;vpos;;v;;r;;d55,348;;b1,0;;myear;;pmonth;;p">
+<treenode node="add_jsfile;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f8;41;2;47;;;;vpos;;v;;r;;d39,41;;b1,0;;mfile_name;;p">
 </treenode>
-<treenode node="file_save;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;79;2;92;;;;vpos;;v;;r;;d1,80;;b1,0;;mdata;;pfilename;;p">
+<treenode node="check_folder_download;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;355;5;365;;;;vpos;;v;;r;;d55,355;;b1,0;;myear;;pmonth;;p">
 </treenode>
-<treenode node="get_attributes;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;136;5;151;;;;vpos;;v;;r;;d46,136;;b1,0;;mcondition;;p">
+<treenode node="file_save;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;86;2;99;;;;vpos;;v;;r;;d1,87;;b1,0;;mdata;;pfilename;;p">
 </treenode>
-<treenode node="get_content;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;264;5;273;;;;vpos;;v;;r;;d52,264;;b1,0;;mcondition;;purl;;p">
+<treenode node="get_attributes;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;143;5;158;;;;vpos;;v;;r;;d46,143;;b1,0;;mcondition;;p">
 </treenode>
-<treenode node="get_img;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;178;5;207;;;;vpos;;v;;r;;d47,178;;b1,0;;mcondition;;purl;;p">
+<treenode node="get_content;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;271;5;280;;;;vpos;;v;;r;;d52,271;;b1,0;;mcondition;;purl;;p">
 </treenode>
-<treenode node="get_img_byurl;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;208;5;228;;;;vpos;;v;;r;;d4,209;;b1,0;;msrc;;p">
+<treenode node="get_img;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;185;5;214;;;;vpos;;v;;r;;d47,185;;b1,0;;mcondition;;purl;;p">
 </treenode>
-<treenode node="get_innerHTML;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;66;5;78;;;;vpos;;v;;r;;d45,66;;b1,0;;mcondition;;p">
+<treenode node="get_img_byurl;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;215;5;235;;;;vpos;;v;;r;;d4,216;;b1,0;;msrc;;p">
 </treenode>
-<treenode node="get_link;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;152;5;177;;;;vpos;;v;;r;;d49,152;;b1,0;;mcondition;;purl;;p">
+<treenode node="get_innerHTML;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;73;5;85;;;;vpos;;v;;r;;d45,73;;b1,0;;mcondition;;p">
 </treenode>
-<treenode node="get_tag;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;283;5;298;;;;vpos;;v;;r;;d66,283;;b1,0;;mlememt;;pfrom_string;;pto_string;;p">
+<treenode node="get_link;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;159;5;184;;;;vpos;;v;;r;;d49,159;;b1,0;;mcondition;;purl;;p">
 </treenode>
-<treenode node="get_text;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;48;5;65;;;;vpos;;v;;r;;d40,48;;b1,0;;mcondition;;p">
+<treenode node="get_tag;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;290;5;305;;;;vpos;;v;;r;;d66,290;;b1,0;;mlememt;;pfrom_string;;pto_string;;p">
 </treenode>
-<treenode node="getstructure_bylink;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;359;5;368;;;;vpos;;v;;r;;d47,359;;b1,0;;mlink;;p">
+<treenode node="get_text;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;55;5;72;;;;vpos;;v;;r;;d40,55;;b1,0;;mcondition;;p">
 </treenode>
-<treenode node="GetTitle;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;229;5;240;;;;vpos;;v;;r;;d40,229;;b1,0;;mcondition;;p">
+<treenode node="getstructure_bylink;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;366;5;375;;;;vpos;;v;;r;;d47,366;;b1,0;;mlink;;p">
+</treenode>
+<treenode node="GetTitle;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;236;5;247;;;;vpos;;v;;r;;d40,236;;b1,0;;mcondition;;p">
 </treenode>
 <treenode node="Load;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;17;5;26;;;;vpos;;v;;r;;d36,17;;b1,0;;mfile_name;;p">
 </treenode>
-<treenode node="remove_element;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;93;5;125;;;;vpos;;v;;r;;d59,93;;b1,0;;mremove_con;;pcount;;p">
+<treenode node="remove_element;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;100;5;132;;;;vpos;;v;;r;;d59,100;;b1,0;;mremove_con;;pcount;;p">
 </treenode>
-<treenode node="remove_link_img;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;324;5;335;;;;vpos;;v;;r;;d42,324;;b1,0;;mhtml;;p">
+<treenode node="remove_link_img;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;331;5;342;;;;vpos;;v;;r;;d42,331;;b1,0;;mhtml;;p">
 </treenode>
-<treenode node="remove_link_relate;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;336;5;347;;;;vpos;;v;;r;;d45,336;;b1,0;;mhtml;;p">
+<treenode node="remove_link_relate;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;343;5;354;;;;vpos;;v;;r;;d45,343;;b1,0;;mhtml;;p">
 </treenode>
-<treenode node="replace_img_src;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;299;5;323;;;;vpos;;v;;r;;d50,299;;b1,0;;mhtml;;purl;;p">
+<treenode node="replace_img_src;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;306;5;330;;;;vpos;;v;;r;;d50,306;;b1,0;;mhtml;;purl;;p">
 </treenode>
-<treenode node="replaceString;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;274;5;282;;;;vpos;;v;;r;;d68,274;;b1,0;;mlememt;;pfrom_string;;pto_string;;p">
+<treenode node="replaceString;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;281;5;289;;;;vpos;;v;;r;;d68,281;;b1,0;;mlememt;;pfrom_string;;pto_string;;p">
 </treenode>
-<treenode node="save;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f8;41;2;47;;;;vpos;;v;;r;;d36,41;;b1,0;;mfile_name;;p">
+<treenode node="save;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f8;48;2;54;;;;vpos;;v;;r;;d36,48;;b1,0;;mfile_name;;p">
 </treenode>
 <treenode node="set_html;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;27;2;33;;;;vpos;;v;;r;;d48,27;;b1,0;;mobj_id;;pstr_html;;p">
 </treenode>
-<treenode node="to_slug;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f4;369;2;382;;;;vpos;;v;;r;;d27,369;;b0,0;;mstr;;p">
+<treenode node="to_slug;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f4;376;2;389;;;;vpos;;v;;r;;d27,376;;b0,0;;mstr;;p">
 </treenode>
-<treenode node="Xpath_GetContent;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;241;5;263;;;;vpos;;v;;r;;d59,241;;b1,0;;mobj_xpath;;pcondition;;p">
+<treenode node="Xpath_GetContent;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;248;5;270;;;;vpos;;v;;r;;d59,248;;b1,0;;mobj_xpath;;pcondition;;p">
 </treenode>
-<treenode node="Xpath_Remove;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;126;5;135;;;;vpos;;v;;r;;d45,126;;b1,0;;mremove_con;;p">
+<treenode node="Xpath_Remove;PHP:Function Name;D:\htdocs\generate\Htmldom.php;f11;133;5;142;;;;vpos;;v;;r;;d45,133;;b1,0;;mremove_con;;p">
 </treenode>
 </treenode>
 <treenode node="simple_html_dom;PHP:Class Name;D:\htdocs\generate\simple_html_dom.php;f0;970;1;1718;;;;vpos;;v;;r

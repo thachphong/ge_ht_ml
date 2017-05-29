@@ -93,9 +93,15 @@ class Html_generate
     	//$style3->margin_top = '-1px';
 		$css->set_style('#menu_top ul li ul li:hover ul',$style3);
 		$css->set_style('#menu_top ul li ul li ul li',$style4);*/
-		$this->add_cssfile('css/bootstrap.min.css');
-		$this->add_cssfile('css/style.css');
-		$this->add_cssfile('css/style_mobi.css');
+		$html_dom = new Htmldom($this->file_name);
+		$html_dom->add_cssfile('css/bootstrap.min.css');
+		$html_dom->add_cssfile('css/style.css');
+		$html_dom->add_cssfile('css/style_mobi.css');
+		$html_dom->add_jsfile('js/jquery.min.js');
+		$html_dom->add_jsfile('js/bootstrap.min.js');
+		
+		$html_dom->add_slides('content');
+		$html_dom->save();
 		//$this->add_row_model($file_name);
 	}
 	public function add_model($obj_id,$html){

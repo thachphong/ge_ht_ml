@@ -4,15 +4,41 @@
 		<file name="D:\htdocs\generate\index.php"/>
 		<file name="D:\htdocs\generate\Htmldom.php"/>
 		<file name="D:\htdocs\generate\simple_html_dom.php"/>
-		<file name="D:\htdocs\generate\index.html"/>
 		<file name="D:\htdocs\generate\Filelib.php"/>
 		<file name="D:\htdocs\generate\Cssdom.php"/>
 		<file name="D:\htdocs\generate\Cssstyle.php"/>
 		<file name="D:\htdocs\generate\style.css"/>
+		<file name="D:\htdocs\generate\style2.css"/>
+		<file name="D:\htdocs\generate\index.html"/>
+		<file name="D:\htdocs\generate\index2.html"/>
+		<file name="D:\htdocs\generate\index3.html"/>
+		<file name="D:\htdocs\generate\css\bootstrap.min.css"/>
+		<file name="D:\htdocs\generate\css\style.css"/>
+		<file name="D:\htdocs\generate\css\style_mobi.css"/>
 	</lastopfiles>
 	<errors version="5.11">
+		<errfile name="D:\htdocs\generate\css\bootstrap.min.css">
+			<error val="137;4;163;4;2502;1;"/>
+			<error val="107;4;137;4;2502;1;"/>
+			<error val="779;4;793;4;2501;1;"/>
+			<error val="3653;4;3687;4;2502;1;"/>
+			<error val="3618;4;3653;4;2502;1;"/>
+			<error val="15315;4;15357;4;2502;1;"/>
+			<error val="33929;4;33973;4;2502;1;"/>
+			<error val="45417;4;45439;4;2502;1;"/>
+			<error val="45321;4;45351;4;2502;1;"/>
+			<error val="45439;4;45460;4;2502;1;"/>
+			<error val="45460;4;45477;4;2502;1;"/>
+			<error val="67731;4;67764;4;2502;1;"/>
+			<error val="84300;4;84304;4;2502;1;"/>
+			<error val="85725;4;85778;4;2502;1;"/>
+			<error val="106031;4;106064;4;2502;1;"/>
+		</errfile>
 		<errfile name="D:\htdocs\generate\simple_html_dom.php">
 			<error val="30;1066;31;1066;901;2;"/>
+		</errfile>
+		<errfile name="D:\htdocs\generate\index2.html">
+			<error val="42;1;56;1;2002;1;"/>
 		</errfile>
 	</errors>
 	<cakedata>
@@ -26,13 +52,21 @@
 	<todoblock>
 	</todoblock>
 	<filescache>
-		<file name="D:\htdocs\generate\style.css" crc="1495711033"/>
+		<file name="D:\htdocs\generate\js\bootstrap.min.js" crc="1469411514"/>
+		<file name="D:\htdocs\generate\css\style_mobi.css" crc="1495797397"/>
+		<file name="D:\htdocs\generate\css\style.css" crc="1495797397"/>
+		<file name="D:\htdocs\generate\css\bootstrap.min.css" crc="1469411514"/>
+		<file name="D:\htdocs\generate\style2.css" crc="1495768614"/>
+		<file name="D:\htdocs\generate\style_.css" crc="1495772107"/>
+		<file name="D:\htdocs\generate\style.css" crc="1495785840"/>
 		<file name="D:\htdocs\generate\simple_html_dom.php" crc="1487565957"/>
-		<file name="D:\htdocs\generate\index.php" crc="1495711029"/>
-		<file name="D:\htdocs\generate\index.html" crc="1495711535"/>
-		<file name="D:\htdocs\generate\Htmldom.php" crc="1495682749"/>
+		<file name="D:\htdocs\generate\index3.html" crc="1495768905"/>
+		<file name="D:\htdocs\generate\index2.html" crc="1495768614"/>
+		<file name="D:\htdocs\generate\index.php" crc="1495797000"/>
+		<file name="D:\htdocs\generate\index.html" crc="1495797397"/>
+		<file name="D:\htdocs\generate\Htmldom.php" crc="1495789678"/>
 		<file name="D:\htdocs\generate\Filelib.php" crc="1495621760"/>
-		<file name="D:\htdocs\generate\Cssstyle.php" crc="1495709515"/>
-		<file name="D:\htdocs\generate\Cssdom.php" crc="1495683971"/>
+		<file name="D:\htdocs\generate\Cssstyle.php" crc="1495771741"/>
+		<file name="D:\htdocs\generate\Cssdom.php" crc="1495798216"/>
 	</filescache>
 </project>
