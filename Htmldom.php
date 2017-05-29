@@ -25,6 +25,26 @@ class Htmldom
 		}
 		return FALSE;
     }
+    public function split_content($total_section){
+    	$element = $this->sdom->find('//div[@id="content"]',0);
+		for($i = 1;$i<=$total_section;$i++){
+			if($element != NULL){
+				$element->innertext .= '<div class="row" id="section_'.$i.'"></div>';
+			}
+		}
+		$this->sdom->save();
+	}
+	public function split_column($object_id,$total_column){
+		$element = $this->sdom->find('//div[@id="'.$object_id.'"]',0);
+		$colum_class = 12/$total_column;
+		for($i = 1;$i<=$total_column;$i++){
+			if($element != NULL){
+				$element->innertext .= '<div class="col-md-'.$colum_class.'" id="'.$object_id.'_col_'.$i.'"> column </div>';
+			}
+		}
+		$this->sdom->save();
+	}
+	
     public function set_html($obj_id, $str_html){
 		$element = $this->sdom->find('//div[@id="'.$obj_id.'"]',0);
         if($element != NULL){

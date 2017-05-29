@@ -37,6 +37,7 @@ class Html_generate
 		$param['color_hover1'] ='#f9fd51';
 		$param['font_family'] = "Tahoma,Arial,Times New Roman";	
 		$param['font_size'] = '13px';		
+		$param['background_hover1'] = '#edabb7';
 		$param['background_hover2'] = '#edabb7';	
 		
 		$css->set_menu_style($param);
@@ -101,7 +102,11 @@ class Html_generate
 		$html_dom->add_jsfile('js/bootstrap.min.js');
 		
 		$html_dom->add_slides('content');
+		$html_dom->split_content(5);
 		$html_dom->save();
+		$this->split_column("section_1",3);
+		//$html_dom->split_column("section_1",3);
+		//$html_dom->save();
 		//$this->add_row_model($file_name);
 	}
 	public function add_model($obj_id,$html){
@@ -112,6 +117,11 @@ class Html_generate
 	public function add_cssfile($file_name){
 		$md = new Htmldom($this->file_name);
 		$md->add_cssfile($file_name);
+		$md->save();
+	}
+	public function split_column($obj_id,$total_column){
+		$md = new Htmldom($this->file_name);
+		$md->split_column($obj_id,$total_column);
 		$md->save();
 	}
 	public function add_row_model($file_name/*,$model,$row*/){
